@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No 5</title>
+</head>
+<body>
+	<form action="proses.php"  method="post">
+	 <table  width="500" border="0" align="center"  cellpadding="0" cellspacing="1"  bgcolor="white" style="padding: 2px">
+		<caption >Registration Form</caption>
+		<tr>
+            <td  width="160">User id </td>
+            <td width="11">:</td>
+            <td  width="237"><input type="text" name="Userid" size="30" maxlength="30" required></td>
+        </tr>
+        <tr>
+            <td width="160">Password</td>
+            <td>:</td>
+            <td><input  type="Password" name="Password" size="30" maxlength="30" required></td>
+        </tr>
+		<tr>
+            <td  width="160">Name</td>
+            <td width="11">:</td>
+            <td  width="237"><input type="text" name="name" size="30" maxlength="30" required></td>
+        </tr>
+        <tr>
+            <td  width="160">Address </td>
+            <td width="11">:</td>
+            <td  width="237"><input type="text" name="Address" size="30" maxlength="30" required></td>
+        </tr>
+        <tr>
+            <td width="160">Country</td>
+            <td>:</td>
+            <td>
+            	<select name="country">
+                	<option value="">Indonesia</option>
+                	<option value="Malaysia">Malaysia</option>
+                	<option value="Singapura">Singapura</option>
+                	<option value="Filipina">Filipina</option>
+                 	<option value="vietnam">Vietnam</option>
+            	</select>
+            </td>
+        </tr>
+        <tr>
+            <td  width="160">ZIP Code </td>
+            <td width="11">:</td>
+            <td  width="237"><input type="ZIP" name="ZIP" size="30" maxlength="30" required></td>
+        </tr>
+        <tr>
+            <td width="160">Email</td>
+            <td>:</td>
+            <td><input  type="email" name="email" size="30" maxlength="30"></td>
+        </tr>
+        <tr>
+            <td width="160">Sex</td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="jk" value="Male">Male
+                <input type="radio" name="jk" value="Female">Female<br>
+            </td>
+        </tr>
+        <tr>
+            <td width="160">Language</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="Language1" value="English">English
+                <input type="checkbox" name="Language2" value="Non English">Non English<br>
+            </td>
+        </tr>
+        <tr>
+            <td width="160">About</td>
+            <td>:</td>
+            <td>
+                <textarea name="pesan" cols="30"  rows="5">Me..</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="submit" name="submit" value="Submit"></td>
+        </tr>
+	</table>
+	</form>
+</body>
+</html>
